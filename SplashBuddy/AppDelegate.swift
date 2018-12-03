@@ -43,7 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 windows.append(window)
             }
 
-            NSApp.hideOtherApplications(self)
+            //NSApp.hideOtherApplications(self)
             NSApp.presentationOptions = [ .disableProcessSwitching,
                                          .hideDock,
                                          .hideMenuBar,

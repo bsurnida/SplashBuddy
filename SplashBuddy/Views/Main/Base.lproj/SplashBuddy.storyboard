@@ -83,12 +83,12 @@
                                                                                     </textFieldCell>
                                                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                                     <prototypeCellViews>
-                                                                                        <tableCellView misplaced="YES" id="hta-JT-VTJ">
+                                                                                        <tableCellView id="hta-JT-VTJ">
                                                                                             <rect key="frame" x="1" y="3" width="221" height="42"/>
                                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                             <subviews>
                                                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jKX-pD-fCY">
-                                                                                                    <rect key="frame" x="0.0" y="0.0" width="15" height="138"/>
+                                                                                                    <rect key="frame" x="0.0" y="0.0" width="15" height="42"/>
                                                                                                     <constraints>
                                                                                                         <constraint firstAttribute="width" constant="15" id="Ce4-AS-Z55"/>
                                                                                                     </constraints>
@@ -110,7 +110,7 @@
                                                                                                     </connections>
                                                                                                 </imageView>
                                                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-7D-6z9">
-                                                                                                    <rect key="frame" x="91" y="5" width="128" height="128"/>
+                                                                                                    <rect key="frame" x="184" y="5" width="32" height="32"/>
                                                                                                     <constraints>
                                                                                                         <constraint firstAttribute="width" secondItem="BWi-7D-6z9" secondAttribute="height" multiplier="1:1" id="D7s-XB-4lM"/>
                                                                                                     </constraints>
@@ -120,7 +120,7 @@
                                                                                                     </connections>
                                                                                                 </imageView>
                                                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9D-nO-L12">
-                                                                                                    <rect key="frame" x="21" y="2" width="72" height="17"/>
+                                                                                                    <rect key="frame" x="21" y="2" width="165" height="17"/>
                                                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="description" id="lnB-mt-lsP">
                                                                                                         <font key="font" metaFont="systemLight" size="13"/>
                                                                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -131,7 +131,7 @@
                                                                                                     </connections>
                                                                                                 </textField>
                                                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drd-hV-059">
-                                                                                                    <rect key="frame" x="21" y="119" width="72" height="17"/>
+                                                                                                    <rect key="frame" x="21" y="23" width="165" height="17"/>
                                                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="displayName" id="IV9-h3-DQ0">
                                                                                                         <font key="font" metaFont="systemMedium" size="13"/>
                                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -311,6 +311,7 @@
                         <outlet property="continueButton" destination="k7a-CL-x2G" id="7B2-Pa-6MA"/>
                         <outlet property="indeterminateProgressIndicator" destination="Are-bh-n7c" id="Y6v-o2-1td"/>
                         <outlet property="mainView" destination="VI7-LS-rJR" id="kli-bF-0SB"/>
+                        <outlet property="sendButton" destination="k7a-CL-x2G" id="EUf-uE-9CX"/>
                         <outlet property="sidebarView" destination="lkr-Fa-FkH" id="G6V-YO-w7K"/>
                         <outlet property="statusLabel" destination="huH-bF-pmn" id="iYg-8d-2PX"/>
                         <outlet property="statusView" destination="9z5-8K-Bsy" id="Dvb-uX-9FO"/>
@@ -370,7 +371,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NSAdvanced" width="128" height="128"/>
+        <image name="NSAdvanced" width="32" height="32"/>
         <image name="NSStatusAvailable" width="16" height="16"/>
     </resources>
 </document>
