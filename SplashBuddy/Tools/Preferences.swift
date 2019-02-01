@@ -122,6 +122,10 @@ class Preferences {
     public var labMode: Bool {
         return self.userDefaults.bool(forKey: "labMode")
     }
+    
+    public var customMessage: String? {
+        return self.userDefaults.string(forKey: "customMessage")
+    }
 
     //-----------------------------------------------------------------------------------
     // MARK: - HTML Path

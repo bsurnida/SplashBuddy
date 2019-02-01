@@ -18,7 +18,12 @@ extension MainViewController {
         indeterminateProgressIndicator.isHidden = false
 
         statusLabel.isHidden = false
-        statusLabel.stringValue = NSLocalizedString("actions.preparing_your_mac")
+        if let message = Preferences.sharedInstance.customMessage {
+            statusLabel.stringValue = message
+        }
+        else {
+            statusLabel.stringValue = NSLocalizedString("actions.preparing_your_mac")
+        }
 
         sidebarView.isHidden = Preferences.sharedInstance.sidebar
 
@@ -27,7 +32,12 @@ extension MainViewController {
 
     /// reset the status label to "We are preparing your Mac…"
     @objc func resetStatusLabel() {
-        statusLabel.stringValue = NSLocalizedString("actions.preparing_your_mac")
+        if let message = Preferences.sharedInstance.customMessage {
+            statusLabel.stringValue = message
+        }
+        else {
+            statusLabel.stringValue = NSLocalizedString("actions.preparing_your_mac")
+        }
     }
 
     /// sets the status label to display an error
