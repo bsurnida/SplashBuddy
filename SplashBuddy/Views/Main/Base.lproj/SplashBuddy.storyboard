@@ -110,7 +110,7 @@
                                                                                                     </connections>
                                                                                                 </imageView>
                                                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-7D-6z9">
-                                                                                                    <rect key="frame" x="91" y="5" width="128" height="128"/>
+                                                                                                    <rect key="frame" x="93" y="5" width="128" height="128"/>
                                                                                                     <constraints>
                                                                                                         <constraint firstAttribute="width" secondItem="BWi-7D-6z9" secondAttribute="height" multiplier="1:1" id="D7s-XB-4lM"/>
                                                                                                     </constraints>
@@ -143,7 +143,7 @@
                                                                                                 </textField>
                                                                                             </subviews>
                                                                                             <constraints>
-                                                                                                <constraint firstItem="BWi-7D-6z9" firstAttribute="leading" secondItem="U9D-nO-L12" secondAttribute="trailing" id="ABc-YN-xpW"/>
+                                                                                                <constraint firstItem="BWi-7D-6z9" firstAttribute="leading" secondItem="U9D-nO-L12" secondAttribute="trailing" constant="2" id="ABc-YN-xpW"/>
                                                                                                 <constraint firstItem="jKX-pD-fCY" firstAttribute="leading" secondItem="hta-JT-VTJ" secondAttribute="leading" id="Onh-Y0-euM"/>
                                                                                                 <constraint firstItem="U9D-nO-L12" firstAttribute="leading" secondItem="jKX-pD-fCY" secondAttribute="trailing" constant="8" id="Rbg-s7-7tg"/>
                                                                                                 <constraint firstItem="drd-hV-059" firstAttribute="leading" secondItem="jKX-pD-fCY" secondAttribute="trailing" constant="8" id="ZvW-9u-Gqf"/>
@@ -153,7 +153,7 @@
                                                                                                 <constraint firstItem="drd-hV-059" firstAttribute="top" secondItem="hta-JT-VTJ" secondAttribute="top" constant="2" id="iC6-u3-48m"/>
                                                                                                 <constraint firstAttribute="bottom" secondItem="jKX-pD-fCY" secondAttribute="bottom" id="kPq-Nj-b20"/>
                                                                                                 <constraint firstItem="jKX-pD-fCY" firstAttribute="top" secondItem="hta-JT-VTJ" secondAttribute="top" id="oRl-Pw-Dod"/>
-                                                                                                <constraint firstItem="BWi-7D-6z9" firstAttribute="leading" secondItem="drd-hV-059" secondAttribute="trailing" id="pV7-yX-GiS"/>
+                                                                                                <constraint firstItem="BWi-7D-6z9" firstAttribute="leading" secondItem="drd-hV-059" secondAttribute="trailing" constant="2" id="pV7-yX-GiS"/>
                                                                                                 <constraint firstAttribute="bottom" secondItem="BWi-7D-6z9" secondAttribute="bottom" constant="5" id="wvk-bW-nxM"/>
                                                                                             </constraints>
                                                                                         </tableCellView>
